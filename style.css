@@ -1,0 +1,33 @@
+/* az elem szélességébe a padding és a border is beleszámít */
+/* *{box-sizing: border-box;} */
+
+body {
+    background-image: url(hatter1.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1{
+    text-align: center;
+}
+
+img {
+    width: 50%; /*képek szélességét érdemes százalékban megadni*/
+    float: right; /* a képeket elúsztatja a szöveg mellé*/
+    padding: 15px;
+}
+
+/*így hivatkozunk a tároló div-re, amiben  az egész tartalom benne van*/
+#tarolo {
+width: 80%; /* a böngésző szélességének a 80%-a legyen*/
+height: 2500%;
+max-width: 1000px; /*max szélesség megadása: széles monitoron sem lesz 600px-nél több*/
+background-color: white;
+margin: auto; /*oldal közepére helyezi */
+padding: 150pt 100pt;
+
+}
+
+.szoveg{
+
+    text-align: justify; /*sorkizárt*/
+}

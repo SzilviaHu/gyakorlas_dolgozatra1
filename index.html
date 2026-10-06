@@ -1,0 +1,85 @@
+<!-- 
+ha html:5-öt választunk, akkor beírja magától az alapstuktúrát 
+nekünk csak a nyelvet kell átállítani és meta tag-eket hozzáadni 
+a meta tag-ek, amik kelleni fognak pluszban: description, keywords 
+a tite mindig a nevem lesz 
+hozzá kell linkelni a css stíluslapot-->
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="gyakorlás, HTML, CSS">
+    <meta name="keywords" content="gyakorlás, dolgozat, HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudácskó Szilvia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+A bodyban minden bele kerül egy tároló nevű dobozba 
+div#tarolo paranccsal automatikusan létrejön -->
+
+
+    <div id="tarolo">
+
+
+
+        <h1>A borsmenta bemutatása</h1>
+
+
+
+        <!-- 
+Az első címsor alatt lesz egy menü nevű doboz a tárolón belül
+div#menu -->
+        <div id="menu">
+            <a href="alkalmazása.html">Alkalmazása</a>
+            <a href="https://femina.hu/egeszseg/borsmenta-tea-hatasai/" target="_blank">Hatása</a>
+
+
+        </div>
+
+        <!-- 
+A menü doboz alatt lesz egy tartalom doboz is. 
+Ezt a tartalom nevet más doboz is felveheti.
+div.tartalo -->
+        <div class="tartalom">
+
+            <h2>Hogyan alkalmazhatjuk a gyógynövényt?</h2>
+            <ul>
+                <li>Teaként</li>
+                <li>Illóolajként</li>
+                <li>Főzésben</li>
+                <li>Kozmetikai termékekben</li>
+                <li>Gyógyászati készítményekben</li>
+            </ul>
+
+            <img src="image_main.jpg" alt="borsmenta">
+
+            <div class="szoveg">
+                <p>A borsmenta (Mentha × piperita) az Árvacsalánfélék (Lamiaceae) családjába tartozó növényfaj. A faj
+                    neve
+                    is utal arra, hogy hibrid eredetű: a vízi menta és a zöld menta keresztezéséből származik. Ez a
+                    fajta
+                    menta világszerte elterjedt, különösen Észak-Amerikában és Európában.
+
+                    A borsmenta körülbelül 30-90 cm magasra nő. Sötétzöld levelei oválisak, és érdes, fogazott szélekkel
+                    rendelkeznek. A növény nyáron virágzik, apró, lila virágokkal, amelyek vonzzák a rovarokat.
+
+                    A borsmenta illóolaja hűsítő, erőteljes mentol illattal rendelkezik, amelyet széles körben
+                    használnak az
+                    élelmiszeriparban, a kozmetikumokban és a gyógyászatban. Az illóolajat a levelekben található
+                    mirigyek
+                    termelik, és a levelek szárításával és lepárlásával nyerik ki.
+                </p>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
